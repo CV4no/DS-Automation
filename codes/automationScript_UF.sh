@@ -48,6 +48,6 @@ sudo tar -xvzf deploy-client-uf (1).tar.gz  -C /opt/splunkuniversalforwarder/etc
 #Removing uncessary directories & files
 sudo rm -r /opt/Splunk-DS-Automation/UF/DC/DS-Config
 sudo rm -r /opt/Splunk-DS-Automation/Deployment-Apps
-cd /opt/Splunk-DS-Automation/
+cd /opt/Splunk-DS-Automation/codes/
 sudo rm -rf automationScript_HF.sh
 sudo rm -rf automationScript_UF.sh
