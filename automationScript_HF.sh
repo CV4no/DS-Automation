@@ -24,8 +24,8 @@ bk=`cat ~/output.txt |grep -i "already installed" |grep -o "already installed"`
                            fi
 
 sudo git clone https://github.com/SplunkAutobahnConsultants/DS-Automation.git /opt/Splunk-DS-Automation
-sudo rm -rf /opt/Splunk-DS-Automation/DS-Automation/UF 
-sudo rm -rf /opt/Splunk-DS-Automation/DS-Automation/Deployment-Apps/Windows 
+sudo rm -r /opt/Splunk-DS-Automation/DS-Automation/UF 
+sudo rm -r /opt/Splunk-DS-Automation/DS-Automation/Deployment-Apps/Windows 
 sudo rm -rf /opt/Splunk-DS-Automation/DS-Automation/automationScript.sh
 
 sudo tar /opt/Splunk-DS-Automation/Deployment-Apps/Linux/Splunk_TA_Linux.tar.gz  -C /opt/splunk/etc/deployment-apps
