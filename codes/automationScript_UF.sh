@@ -1,5 +1,5 @@
 #!/bin/sh
-                                                #Version_01 by BK
+                                                #Version_1.0.0 by BK
                                                 
 #Splunk-DS-Automation by BK
 #Splunk Autobahn Delivery Engineering Team
