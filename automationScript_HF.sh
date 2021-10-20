@@ -23,7 +23,7 @@ bk=`cat ~/output.txt |grep -i "already installed" |grep -o "Git is already insta
                            echo "We are ok to download the file using git"
                            
                            fi
-
+#Cloning DS folder from SplunkAutobahnConsultants repo
 sudo git clone https://github.com/SplunkAutobahnConsultants/DS-Automation.git /opt/Splunk-DS-Automation
 
 #coping  necessary files to Splunk Deployment Apps directories
