@@ -23,8 +23,10 @@ rm -rf /opt/Splunk-DS-Automation/DS-Automation/UF
 rm -rf /opt/Splunk-DS-Automation/DS-Automation/Deployment-Apps/Windows 
 rm -rf /opt/Splunk-DS-Automation/DS-Automation/automationScript.sh
 
-tar /opt/Splunk-DS-Automation/Deployment-Apps/Linux/Splunk_TA_Linux.tar.gz  -C /opt/splunk/etc/
-
+tar /opt/Splunk-DS-Automation/Deployment-Apps/Linux/Splunk_TA_Linux.tar.gz  -C /opt/splunk/etc/deployment-apps
+tar /opt/Splunk-DS-Automation/Deployment-Apps/Linux/Splunk_TA_windows.tar.gz  -C /opt/splunk/etc/deployment-apps
+tar /opt/Splunk-DS-Automation/Deployment-Apps/Linux/org_all_internal_forwarder_outputs.tar.gz  -C /opt/splunk/etc/deployment-apps
+tar /opt/Splunk-DS-Automation/Deployment-Apps/Linux/Splunk_TA_windows_DC.tar.gz  -C /opt/splunk/etc/deployment-apps
 
 
 
