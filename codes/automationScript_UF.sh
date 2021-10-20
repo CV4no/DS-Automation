@@ -51,3 +51,5 @@ sudo rm -r /opt/Splunk-DS-Automation/Deployment-Apps
 cd /opt/Splunk-DS-Automation/codes/
 sudo rm -rf automationScript_HF.sh
 sudo rm -rf automationScript_UF.sh
+
+#Hello BK
