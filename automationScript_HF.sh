@@ -11,7 +11,7 @@ echo "Checks if git is installed"
 
 echo ""
 
-#git install
+#git install on centOS
 sudo yum install git -y > ~/output.txt
 bk=`cat ~/output.txt |grep -i "already installed" |grep -o "Git is already installed"`
  if [ "$bk" == "already installed" ]
