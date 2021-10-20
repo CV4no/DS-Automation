@@ -29,10 +29,10 @@ sudo rm -r /opt/Splunk-DS-Automation/DS-Automation/Deployment-Apps/Windows
 sudo rm -rf /opt/Splunk-DS-Automation/DS-Automation/automationScript.sh
 
 cd /opt/Splunk-DS-Automation/Deployment-Apps/Linux/
-sudo tar Splunk_TA_Linux.tar.gz  -C /opt/splunk/etc/deployment-apps
-sudo tar Splunk_TA_windows.tar.gz  -C /opt/splunk/etc/deployment-apps
-sudo tar org_all_internal_forwarder_outputs.tar.gz  -C /opt/splunk/etc/deployment-apps
-sudo tar Splunk_TA_windows_DC.tar.gz  -C /opt/splunk/etc/deployment-apps
+sudo tar -xvzf Splunk_TA_Linux.tar.gz  -C /opt/splunk/etc/deployment-apps
+sudo tar -xvzf Splunk_TA_windows.tar.gz  -C /opt/splunk/etc/deployment-apps
+sudo tar -xvzf org_all_internal_forwarder_outputs.tar.gz  -C /opt/splunk/etc/deployment-apps
+sudo tar -xvzf Splunk_TA_windows_DC.tar.gz  -C /opt/splunk/etc/deployment-apps
 
 
 
