@@ -55,4 +55,4 @@ sudo rm -r /opt/Splunk-DS-Automation/Deployment-Apps/Windows
 cd /opt/Splunk-DS-Automation/
 sudo rm -rf automationScript_HF.sh
 sudo rm -rf automationScript_UF.sh
-#hi
+#hello bk
