@@ -36,4 +36,5 @@ sudo tar -xvzf Splunk_TA_windows_DC.tar.gz  -C /opt/splunk/etc/deployment-apps
 #Removing uncessary directories & files
 sudo rm -r /opt/Splunk-DS-Automation/UF 
 sudo rm -r /opt/Splunk-DS-Automation/Deployment-Apps/Windows 
-sudo rm -rf /opt/Splunk-DS-Automation/automationScript_HF.sh
+cd /opt/Splunk-DS-Automation/
+sudo rm -rf automationScript_HF.sh
