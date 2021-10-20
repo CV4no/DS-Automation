@@ -20,7 +20,7 @@ bk=`cat ~/output.txt |grep -i "already installed" |grep -o "Git is already insta
                            
                            echo ""
                            
-                           echo "We are ok to download the file using git"
+                           echo "We are ok to clone the file using git"
                            
                            fi
 #Cloning DS folder from SplunkAutobahnConsultants repo
