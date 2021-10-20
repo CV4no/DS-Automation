@@ -26,7 +26,7 @@ bk=`cat ~/output.txt |grep -i "already installed" |grep -o "Git is already insta
 #Cloning DS folder from SplunkAutobahnConsultants repo
 sudo git clone https://github.com/SplunkAutobahnConsultants/DS-Automation.git /opt/Splunk-DS-Automation
 
-#coping  necessary files to Splunk Deployment Apps directories
+#untar/coping  necessary files to Splunk Deployment Apps directories
 cd /opt/Splunk-DS-Automation/Deployment-Apps/Linux/
 sudo tar -xvzf Splunk_TA_Linux.tar.gz  -C /opt/splunk/etc/deployment-apps
 sudo tar -xvzf Splunk_TA_windows.tar.gz  -C /opt/splunk/etc/deployment-apps
