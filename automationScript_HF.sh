@@ -33,6 +33,6 @@ sudo tar -xvzf org_all_internal_forwarder_outputs.tar.gz  -C /opt/splunk/etc/dep
 sudo tar -xvzf Splunk_TA_windows_DC.tar.gz  -C /opt/splunk/etc/deployment-apps
 
 #Removing uncessary directories & files
-sudo rm -r /opt/Splunk-DS-Automation/DS-Automation/UF 
-sudo rm -r /opt/Splunk-DS-Automation/DS-Automation/Deployment-Apps/Windows 
-sudo rm -rf /opt/Splunk-DS-Automation/DS-Automation/automationScript.sh
+sudo rm -r /opt/Splunk-DS-Automation/UF 
+sudo rm -r /opt/Splunk-DS-Automation/Deployment-Apps/Windows 
+sudo rm -rf /opt/Splunk-DS-Automation/automationScript.sh
