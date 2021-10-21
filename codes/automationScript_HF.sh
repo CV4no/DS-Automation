@@ -27,7 +27,7 @@ bk=`cat ~/output.txt |grep -i "already installed" |grep -o "Git is already insta
  
  #Uncomment down below if your machine is running ubuntu linux
 : ' git install on Ubuntu                          
-sudo  apt install git-all -y > ~/output.txt
+sudo  apt install git-all -y > ~/output.txt 
 bk=`cat ~/output.txt |grep -i "already installed" |grep -o "Git is already installed"`
  if [ "$bk" == "already installed" ]
                 then 
