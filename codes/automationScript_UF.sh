@@ -43,7 +43,7 @@ sudo git clone https://github.com/SplunkAutobahnConsultants/DS-Automation.git /o
 
 #coping  necessary files to Splunk Deployment Apps directories
 cd /opt/Splunk-DS-Automation/UF/Linux/DS-Config/
-sudo tar -xvzf deploy-client-uf.tar.gz  -C /opt/splunkuniversalforwarder/etc/apps
+sudo tar -xvzf deploy-client-uf.tar.gz  -C /opt/splunkuniversalforwarder/etc/apps 
 
 #Removing uncessary directories & files
 sudo rm -r /opt/Splunk-DS-Automation/UF/Windows/DS-Config
