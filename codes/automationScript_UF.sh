@@ -52,4 +52,5 @@ cd /opt/Splunk-DS-Automation/codes/
 sudo rm -rf automationScript_HF.sh
 sudo rm -rf automationScript_UF.sh
 
+sudo -H -u splunk /opt/splunkuniversalforwarder/bin/splunk restart
 #Hello BK Splunk
