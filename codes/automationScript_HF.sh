@@ -56,4 +56,5 @@ cd /opt/Splunk-DS-Automation/codes/
 sudo rm -rf automationScript_HF.sh
 sudo rm -rf automationScript_UF.sh
 
+sudo -H -u splunk /opt/splunk/bin/splunk restart
 #Hi bisrat
