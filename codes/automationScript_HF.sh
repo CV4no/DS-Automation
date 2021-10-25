@@ -5,9 +5,20 @@
 #Splunk Autobahn Delivery Engineering Team
 
 
+#setting up colors
+red=`tput setaf 1`
+green=`tput setaf 2`
+yellow=`tput setaf 3`
+reset=`tput sgr0`
+
+echo "${green}Splunk Core Install Automation${reset}"
+echo "${green}Splunk Inc. 2021${reset}"
+echo "${green}Splunk Autobahn Delivery Engineering Team${reset}"
+
+
 echo ""
 
-echo "Checks if git is installed"
+echo "${yellow}Checks if git is installed${reset}"
 
 echo ""
 
@@ -21,7 +32,7 @@ bk=`cat ~/output.txt |grep -i "already installed" |grep -o "Git is already insta
                            
                            echo ""
                            
-                           echo "We are ok to clone the file using git"
+                           echo "${green}We are ok to clone the file using git${reset}"
                            
                            fi
  
@@ -57,4 +68,4 @@ sudo rm -rf automationScript_HF.sh
 sudo rm -rf automationScript_UF.sh
 
 sudo -H -u splunk /opt/splunk/bin/splunk restart
-#Hi bisrat
+
