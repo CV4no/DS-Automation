@@ -1,5 +1,5 @@
 #!/bin/sh
-                                                #Version_1.0.0 by BK
+                                                #Version_1.0.0 by Bisrat Kebede, BK
                                                 
 #Splunk-DS-Automation by BK
 #Splunk Autobahn Delivery Engineering Team
