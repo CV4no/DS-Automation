@@ -15,5 +15,4 @@ sudo tar -xvzf Splunk_TA_windows_DC.tar.gz  -C /opt/splunk/etc/deployment-apps
 sudo rm -r /opt/Splunk-DS-Automation/UF 
 sudo rm -r /opt/Splunk-DS-Automation/Deployment-Apps/Windows 
 cd /opt/Splunk-DS-Automation/codes/
-sudo rm -rf automationScript_HF.sh
 sudo rm -rf automationScript_UF.sh
