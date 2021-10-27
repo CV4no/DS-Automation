@@ -4,9 +4,6 @@
 #Splunk-DS-Automation by BK
 #Splunk Autobahn Delivery Engineering Team
 
-                 
-
-
 #coping  necessary files to Splunk Deployment Apps directories
 cd /opt/Splunk-DS-Automation/Deployment-Apps/Linux/
 sudo tar -xvzf Splunk_TA_Linux.tar.gz  -C /opt/splunk/etc/deployment-apps
@@ -20,6 +17,3 @@ sudo rm -r /opt/Splunk-DS-Automation/Deployment-Apps/Windows
 cd /opt/Splunk-DS-Automation/codes/
 sudo rm -rf automationScript_HF.sh
 sudo rm -rf automationScript_UF.sh
-
-
-
