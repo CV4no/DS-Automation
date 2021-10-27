@@ -4,52 +4,7 @@
 #Splunk-DS-Automation by BK
 #Splunk Autobahn Delivery Engineering Team
 
-
-#setting up colors
-red=`tput setaf 1`
-green=`tput setaf 2`
-yellow=`tput setaf 3`
-reset=`tput sgr0`
-
-echo "${green}Splunk Deployment Server Automation${reset}"
-echo "${green}Splunk Inc. 2021${reset}"
-echo "${green}Splunk Autobahn Delivery Engineering Team${reset}"
-
-
-echo ""
-
-echo "${yellow}Checks if git is installed${reset}"
-
-echo ""
-
-#git install on centOS
-#comment down below if your machine is running ubuntu linux
-sudo yum install git -y > ~/output.txt
-bk=`cat ~/output.txt |grep -i "already installed" |grep -o "Git is already installed"`
- if [ "$bk" == "already installed" ]
-                then 
-                           echo "The git package is $bk"
-                           
-                           echo ""
-                           
-                           echo "${green}We are ok to clone the file using git${reset}"
-                           
-                           fi
- 
- #Uncomment down below if your machine is running ubuntu linux
-: ' git install on Ubuntu                          
-sudo  apt install git-all -y > ~/output.txt 
-bk=`cat ~/output.txt |grep -i "already installed" |grep -o "Git is already installed"`
- if [ "$bk" == "already installed" ]
-                then 
-                           echo "The git package is $bk"
-                           
-                           echo ""
-                           
-                           echo "We are ok to clone the file using git"
-                           
-                           fi
-    '                   
+                 
 #Cloning DS folder from SplunkAutobahnConsultants repo
 sudo git clone https://github.com/SplunkAutobahnConsultants/DS-Automation.git /opt/Splunk-DS-Automation
 
@@ -67,5 +22,5 @@ cd /opt/Splunk-DS-Automation/codes/
 sudo rm -rf automationScript_HF.sh
 sudo rm -rf automationScript_UF.sh
 
-sudo -H -u splunk /opt/splunk/bin/splunk restart
+
 
