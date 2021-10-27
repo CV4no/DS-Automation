@@ -5,8 +5,7 @@
 #Splunk Autobahn Delivery Engineering Team
 
                  
-#Cloning DS folder from SplunkAutobahnConsultants repo
-sudo git clone https://github.com/SplunkAutobahnConsultants/DS-Automation.git /opt/Splunk-DS-Automation
+
 
 #coping  necessary files to Splunk Deployment Apps directories
 cd /opt/Splunk-DS-Automation/Deployment-Apps/Linux/
