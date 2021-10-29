@@ -23,7 +23,9 @@ sudo tar -xvzf Splunk_TA_windows_DC.tar.gz  -C /opt/splunk/etc/deployment-apps
 sudo rm -r /opt/Splunk-DS-Automation/UF 
 sudo rm -r /opt/Splunk-DS-Automation/Deployment-Apps/Windows 
 cd /opt/Splunk-DS-Automation/codes/
-sudo rm -rf automationScript_UF.sh
+sudo rm -rf automationScript_UF.sh 
 
 
 echo "${green}DS Automation on Splunk Core Ends now${reset}" 
+
+#Ji Bisrat
