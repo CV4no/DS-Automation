@@ -26,4 +26,4 @@ cd /opt/Splunk-DS-Automation/codes/
 sudo rm -rf automationScript_UF.sh
 
 
-echo "${green}DS Automation on Splunk Core Ends now${reset}" 
+echo "${green}DS Automation on Splunk Core Ends now${reset}"
