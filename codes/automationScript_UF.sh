@@ -16,8 +16,7 @@ echo "${green}Splunk Inc. 2021${reset}"
 echo "${green}Splunk Autobahn Delivery Engineering Team${reset}"
 
 # CentOS/RedHat installation Script - Splunk Core
-sudo 
-wget -O splunkforwarder-8.0.6-152fb4b2bb96-linux-2.6-x86_64.rpm 'https://www.splunk.com/bin/splunk/DownloadActivityServlet?architecture=x86_64&platform=linux&version=8.0.6&product=universalforwarder&filename=splunkforwarder-8.0.6-152fb4b2bb96-linux-2.6-x86_64.rpm&wget=true'
+sudo wget -O splunkforwarder-8.0.6-152fb4b2bb96-linux-2.6-x86_64.rpm 'https://www.splunk.com/bin/splunk/DownloadActivityServlet?architecture=x86_64&platform=linux&version=8.0.6&product=universalforwarder&filename=splunkforwarder-8.0.6-152fb4b2bb96-linux-2.6-x86_64.rpm&wget=true'
 sudo mv splunkforwarder-8.0.6-152fb4b2bb96-linux-2.6-x86_64.rpm /opt/
 cd /opt/
 sudo rpm -i splunkforwarder-8.0.6-152fb4b2bb96-linux-2.6-x86_64.rpm
@@ -80,7 +79,7 @@ sudo mv deploy-client-uf/ /opt/splunkuniversalforwarder/etc/apps
 sudo rm -r /opt/Splunk-DS-Automation/UF/Windows/DS-Config
 sudo rm -r /opt/Splunk-DS-Automation/Deployment-Apps
 cd /opt/Splunk-DS-Automation/codes/
-sudo rm -rf automationScript_UF.sh
+sudo rm -rf automationScript_HF.sh
 
 
 sudo /opt/splunkforwarder/bin/splunk stop
