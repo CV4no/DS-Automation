@@ -88,5 +88,5 @@ sudo /opt/splunkforwarder/bin/splunk stop
 sudo /opt/splunkforwarder/bin/splunk enable boot-start -user splunk
 sudo chown  -R splunk: /opt/splunkforwarder
 
-sudo -H -u splunk /opt/splunkuniversalforwarder/bin/splunk start
+sudo -H -u splunk /opt/splunkforwarder/bin/splunk start
 #Hello BK Splunk
