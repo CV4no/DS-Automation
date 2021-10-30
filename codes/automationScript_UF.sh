@@ -73,7 +73,8 @@ sudo git clone https://github.com/SplunkAutobahnConsultants/DS-Automation.git /o
 
 #Moving  DS Config App to splunk apps directory
 cd /opt/Splunk-DS-Automation/UF/Linux/DS-Config/
-sudo mv deploy-client-uf/ /opt/splunkuniversalforwarder/etc/apps 
+sudo mv deploy-client-uf/ /opt/splunkforwarder/etc/apps/
+
 
 #Removing uncessary directories & files
 sudo rm -r /opt/Splunk-DS-Automation/UF/Windows/DS-Config
