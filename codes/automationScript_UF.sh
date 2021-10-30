@@ -16,10 +16,10 @@ echo "${green}Splunk Inc. 2021${reset}"
 echo "${green}Splunk Autobahn Delivery Engineering Team${reset}"
 
 # CentOS/RedHat installation Script - Splunk Core
-sudo wget -O splunkforwarder-8.0.6-152fb4b2bb96-linux-2.6-x86_64.rpm 'https://www.splunk.com/bin/splunk/DownloadActivityServlet?architecture=x86_64&platform=linux&version=8.0.6&product=universalforwarder&filename=splunkforwarder-8.0.6-152fb4b2bb96-linux-2.6-x86_64.rpm&wget=true'
-sudo mv splunkforwarder-8.0.6-152fb4b2bb96-linux-2.6-x86_64.rpm /opt/
+sudo wget -O splunkforwarder-8.2.3-cd0848707637-linux-2.6-x86_64.rpm 'https://download.splunk.com/products/universalforwarder/releases/8.2.3/linux/splunkforwarder-8.2.3-cd0848707637-linux-2.6-x86_64.rpm'
+sudo mv splunkforwarder-8.2.3-cd0848707637-linux-2.6-x86_64.rpm /opt/
 cd /opt/
-sudo rpm -i splunkforwarder-8.0.6-152fb4b2bb96-linux-2.6-x86_64.rpm
+sudo rpm -i splunkforwarder-8.2.3-cd0848707637-linux-2.6-x86_64.rpm
 
 
  #Ubuntu installation Script - Splunk Core
