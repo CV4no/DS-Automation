@@ -17,6 +17,7 @@ cd /opt/Splunk-DS-Automation/Deployment-Apps/Linux/
 sudo tar -xvzf Splunk_TA_Linux.tar.gz  -C /opt/splunk/etc/deployment-apps
 sudo tar -xvzf Splunk_TA_windows.tar.gz  -C /opt/splunk/etc/deployment-apps
 sudo tar -xvzf org_all_internal_forwarder_outputs.tar.gz  -C /opt/splunk/etc/deployment-apps
+sudo mv org_win_wec/ /opt/splunk/etc/deployment-apps
 
 #Removing uncessary directories & files
 sudo rm -r /opt/Splunk-DS-Automation/UF 
@@ -27,4 +28,4 @@ sudo rm -rf automationScript_UF.sh
 
 echo "${green}DS Automation on Splunk Core Ends now${reset}" 
 
-#Ji Bisrat
+#Bisrat
