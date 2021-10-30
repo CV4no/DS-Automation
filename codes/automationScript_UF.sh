@@ -24,10 +24,10 @@ sudo rpm -i splunkforwarder-8.0.6-152fb4b2bb96-linux-2.6-x86_64.rpm
 
  #Ubuntu installation Script - Splunk Core
 : '
-sudo wget -O splunk-8.2.2.1-ae6821b7c64b-linux-2.6-amd64.deb 'https://download.splunk.com/products/splunk/releases/8.2.2.1/linux/splunk-8.2.2.1-ae6821b7c64b-linux-2.6-amd64.deb'
-sudo mv splunk-8.2.2.1-ae6821b7c64b-linux-2.6-amd64.deb /opt/
+sudo wget -O splunk-8.0.4.1-ab7a85abaa98-linux-2.6-amd64.deb 'https://www.splunk.com/bin/splunk/DownloadActivityServlet?architecture=x86_64&platform=linux&version=8.0.4.1&product=splunk&filename=splunk-8.0.4.1-ab7a85abaa98-linux-2.6-amd64.deb&wget=true'
+sudo mv splunk-8.0.4.1-ab7a85abaa98-linux-2.6-amd64.deb /opt/
 cd /opt/
-dpkg -i splunk-8.2.2.1-ae6821b7c64b-linux-2.6-amd64.deb
+dpkg -i splunk-8.0.4.1-ab7a85abaa98-linux-2.6-amd64.deb
    '
 
 sudo /opt/splunkforwarder/bin/splunk start --accept-license
